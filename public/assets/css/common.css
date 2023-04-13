@@ -1,0 +1,67 @@
+.overlay {
+    height: auto;
+    padding-bottom: 30px;
+    width: 0px;
+    position: fixed;
+    z-index: 1030;
+    top: 0;
+    right: 0;
+    background-color:transparent;
+    /*background-color: rgba(0,0,0, 0.9);*/
+    overflow-x: hidden;
+    transition: 1s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 0%;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    padding: 15px;
+    /*border-top:1px solid yellow;*/
+}
+
+.nicknet{
+    overflow: auto !important;
+    text-align: center !important;
+    margin-top:0 !important;
+}
+
+.lion{
+    background-color: #05101e;
+    padding-top: 10px !important;
+    border-left: 1px solid rgb(30,0,0);
+    border-right: 1px solid rgb(30,0,0);
+    border-bottom: 1px solid rgb(30,0,0);
+}
+
+#nav_heading{
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 2px;
+    color: white;
+    border-bottom: 2px solid rgb(30,0,0);
+    border-top: 2px solid rgb(30,0,0);
+    font-size: 0.8em;
+
+}
+
+#nav_footer{
+    text-align: right;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: white;
+    border-top: 2px solid rgb(30,0,0);
+    cursor: pointer;
+
+}
+#close{
+    color: red;
+    float: right;
+    cursor: pointer;
+}
+
+.nairobi{
+    text-align: left !important;
+}
